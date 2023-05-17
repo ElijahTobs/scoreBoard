@@ -28,6 +28,20 @@ home3.addEventListener("click", function() {
   hsc.textContent = initialHomeScore
 } )
 
+guest1.addEventListener("click", function() {
+  initialAwayScore += 1
+  gsc.textContent = initialAwayScore
+} )
+
+guest2.addEventListener("click", function() {
+  initialAwayScore += 2
+  gsc.textContent = initialAwayScore
+} )
+
+guest3.addEventListener("click", function() {
+  initialAwayScore += 3
+  gsc.textContent = initialAwayScore
+} )
 
 
 
