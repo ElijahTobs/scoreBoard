@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  margin: auto;
+}
+
+.score {
+  width: 160px;
+  height: 130px;
+  background-color: #080001;
+}
