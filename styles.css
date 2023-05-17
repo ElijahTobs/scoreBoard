@@ -7,10 +7,19 @@ body {
   justify-content: space-around;
   width: 500px;
   margin: auto;
+  text-align: center;
 }
 
 .score {
   width: 160px;
   height: 130px;
   background-color: #080001;
+  margin-bottom: 15px;
+}
+
+.bt-score {
+  width: 50px;
+  font-weight: 700;
+  height: 50px;
+  border: 1px solid #9AABD8;
 }
