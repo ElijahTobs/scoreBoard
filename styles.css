@@ -10,11 +10,21 @@ body {
   text-align: center;
 }
 
-.score {
+.score-ctnr {
   width: 160px;
   height: 130px;
   background-color: #080001;
   margin-bottom: 15px;
+  color: #F94F6D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid blue;
+}
+
+.score {
+  font-size: 95px;
+  border: 1px solid white;
 }
 
 .bt-score {
@@ -22,4 +32,6 @@ body {
   font-weight: 700;
   height: 50px;
   border: 1px solid #9AABD8;
+  font-size: 18px;
+  border-radius: 5px;
 }
