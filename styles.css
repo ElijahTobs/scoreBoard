@@ -1,18 +1,16 @@
 @font-face {
   font-family: "cursed-timer";
-  src: url(CursedTimerUlil-Aznm.ttf);
+  src: url(fonts/CursedTimerUlil-Aznm.ttf);
 }
 
 @font-face {
   font-family: "corl";
-  src: url(RosmatikaRegular-BWA45.ttf);
+  src: url(fonts/RosmatikaRegular-BWA45.ttf);
 }
 
 body {
   margin: 0 auto;
   width: 700px;
-  /* text-align: center; */
-  /* font-family: "cursed-timer"; */
 }
 
 header {
@@ -87,21 +85,6 @@ h3 {
   padding: 5px 15px;
   display: block;
 }
-
-/* #reset {
-  text-align: center;
-  margin: auto;
-  margin-bottom: 30px;
-  margin-top: 40px;
-  padding: 10px 30px;
-  background-color: #1B244A;
-  color: #fff;
-  width: 200px;
-  font-size: 44px;
-  font-weight: 400;
-  font-family: "corl";
-  letter-spacing: 2px;
-} */
 
 
 /********* MEDIA QUERY ***********/
