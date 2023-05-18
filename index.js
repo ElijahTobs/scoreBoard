@@ -4,6 +4,7 @@ const home3 = document.getElementById("h-3")
 const guest1 = document.getElementById("g-1")
 const guest2 = document.getElementById("g-2")
 const guest3 = document.getElementById("g-3")
+const reset = document.getElementById("reset")
 let hsc = document.getElementById("h-score") 
 let gsc = document.getElementById("g-score") 
 let initialHomeScore = 0

@@ -47,7 +47,7 @@ And For tracking linter errors in JavaScript file, run:
 
 ## Live Demo
 
-See the live by clicking [Live Demo Link](elijah-score-board.netlify.app/)
+See the live by clicking [Live Demo Link](https://elijah-score-board.netlify.app/)
 
 ## Author
 

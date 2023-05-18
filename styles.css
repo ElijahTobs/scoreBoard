@@ -39,10 +39,10 @@ h3 {
   justify-content: space-around;
   width: 500px;
   margin: auto;
-  /* margin-top: 30px; */
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   text-align: center;
   background-color: #1B244A;
+  border: 2px solid green;
 }
 
 .score-ctnr {
@@ -55,7 +55,6 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 2px solid blue; */
 }
 
 .score {
@@ -80,6 +79,32 @@ h3 {
   background-color: #9AABD8;
 }
 
+#reset {
+  width: 150px;
+  text-align: center;
+  margin: auto;
+  margin-top: 0px;
+  padding: 5px 15px;
+  display: block;
+}
+
+/* #reset {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  padding: 10px 30px;
+  background-color: #1B244A;
+  color: #fff;
+  width: 200px;
+  font-size: 44px;
+  font-weight: 400;
+  font-family: "corl";
+  letter-spacing: 2px;
+} */
+
+
+/********* MEDIA QUERY ***********/
 @media only screen and (max-width: 480px) {
   header  {
     font-size: 20px;
