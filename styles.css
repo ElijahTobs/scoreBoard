@@ -40,7 +40,7 @@ h3 {
   padding-bottom: 80px;
   text-align: center;
   background-color: #1B244A;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 
 .score-ctnr {
@@ -79,11 +79,25 @@ h3 {
 
 #reset {
   width: 150px;
-  text-align: center;
   margin: auto;
   margin-top: 0px;
   padding: 5px 15px;
   display: block;
+  background-color: #F94F6D;
+  position: relative;
+  bottom: 50px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  font-size: 20px;
+  color: #1B244A;
+  font-weight: 700;
+  font-family: "corl";
+  cursor: pointer;
+}
+
+#reset:hover {
+  color: #F94F6D;
+  background-color: #1B244A;
 }
 
 

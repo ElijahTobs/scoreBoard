@@ -7,8 +7,9 @@ const guest3 = document.getElementById("g-3")
 const reset = document.getElementById("reset")
 let hsc = document.getElementById("h-score") 
 let gsc = document.getElementById("g-score") 
+
 let initialHomeScore = 0
-let initialAwayScore = 0
+let initialGuestScore = 0
 
 hsc.textContent = initialHomeScore
 gsc.textContent = initialHomeScore
@@ -30,20 +31,26 @@ home3.addEventListener("click", function() {
 } )
 
 guest1.addEventListener("click", function() {
-  initialAwayScore += 1
-  gsc.textContent = initialAwayScore
+  initialGuestScore += 1
+  gsc.textContent = initialGuestScore
 } )
 
 guest2.addEventListener("click", function() {
-  initialAwayScore += 2
-  gsc.textContent = initialAwayScore
+  initialGuestScore += 2
+  gsc.textContent = initialGuestScore
 } )
 
 guest3.addEventListener("click", function() {
-  initialAwayScore += 3
-  gsc.textContent = initialAwayScore
+  initialGuestScore += 3
+  gsc.textContent = initialGuestScore
 } )
 
+reset.addEventListener("click", function(){
+  initialGuestScore = 0
+  initialHomeScore = 0
 
+  hsc.textContent = initialHomeScore
+  gsc.textContent = initialGuestScore
+})
 
 
