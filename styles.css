@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "cursed-timer";
+  src: url(fonts/CursedTimerUlil-Aznm.ttf);
+}
+
+@font-face {
+  font-family: "corl";
+  src: url(fonts/RosmatikaRegular-BWA45.ttf);
+}
+
+body {
+  margin: 0 auto;
+  width: 700px;
+}
+
+header {
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  padding: 10px 30px;
+  background-color: #1B244A;
+  color: #fff;
+  width: 200px;
+  font-size: 44px;
+  font-weight: 400;
+  font-family: "corl";
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  margin: auto;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: #1B244A;
+  /* border: 2px solid green; */
+}
+
+.score-ctnr {
+  width: 160px;
+  height: 130px;
+  background-color: #080001;
+  margin: 0;
+  margin-bottom: 15px;
+  color: #F94F6D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.score {
+  font-size: 95px;
+  font-family: "cursed-timer";
+}
+
+.bt-score {
+  width: 50px;
+  font-weight: 700;
+  height: 50px;
+  background-color: #1B244A;
+  color: #9AABD8;
+  border: 1px solid #9AABD8;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bt-score:hover {
+  color: #1B244A;
+  background-color: #9AABD8;
+}
+
+#reset {
+  width: 150px;
+  margin: auto;
+  margin-top: 0px;
+  padding: 5px 15px;
+  display: block;
+  background-color: #F94F6D;
+  position: relative;
+  bottom: 50px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  font-size: 20px;
+  color: #1B244A;
+  font-weight: 700;
+  font-family: "corl";
+  cursor: pointer;
+}
+
+#reset:hover {
+  color: #F94F6D;
+  background-color: #1B244A;
+}
+
+
+/********* MEDIA QUERY ***********/
+@media only screen and (max-width: 480px) {
+  header  {
+    font-size: 20px;
+  }
+  
+  h3 {
+    font-size: 16px;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  .container {
+    width: 80%;
+  }
+
+  .score-ctnr {
+    width: 110px;
+    height: 100px;
+  }
+
+  .score {
+    font-size: 65px;
+  }
+
+  .bt-score {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+}
